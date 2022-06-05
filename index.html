@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Made Shkaf</title>
+</head>
+<body>
+    <!-- Header start -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex align-items-center">
+                <a href="#!" class="navbar-brand d-flex align-items-center">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse w-100" id="menu">
+                    <div class="navbar__list w-100 d-flex justify-content-end">
+                      <div class="navbar-items d-flex align-items-center">
+                        <a href="#!" class="nav-item">О нас</a>
+                        <a href="#!" class="nav-item">Каталог</a>
+                        <a href="#!" class="nav-item">Материалы</a>
+                        <a href="#!" class="nav-item">Рассчитать стоимость</a>
+                        <a href="#!" class="nav-item">Отзывы</a>
+                        <a href="#!" class="nav-item">Контакты</a>
+                        <div class="nav-contacts d-flex flex-column">
+                            <a href="tel:+375259199290" class="nav-item">+375259199290</a>
+                            <a href="#!" class="nav-item">Пн-Вс 9:00-21:00</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header__content">
+            <div class="container d-flex flex-column position-relative">
+                <h1 class="header__title">Шкафы на заказ</h1>
+                <p class="header__text">По заявке с сайта скидка 10% каждому покупателю</p>
+                <p class="header__text medium-text">До конца скидки осталось:</p>
+                <div class="time d-flex">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <p class="days time__value">0</p>
+                        <span class="time__text">Дни</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="hours time__value">0</p>
+                        <span class="time__text">Часы</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="minutes time__value">30</p>
+                        <span class="time__text">Мин</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="seconds time__value">59</p>
+                        <span class="time__text">Сек</span>
+                    </div>
+                </div>
+                <form action="">
+                    <input type="text" class="header__input" placeholder="Введите номер телефона">
+                </form>
+                <a href="#!" class="btn">Получить скидку</a>
+                <div class="social-medias d-flex flex-md-column flex-row position-absolute">
+                    <a href="#!"><span class="viber-icon"></span></a>
+                    <a href="#!"><span class="telegram-icon"></span></a>
+                    <a href="#!"><span class="whatsapp-icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Cost start -->
+    <section class="cost">
+        <div class="container position-relative">
+            <div class="cost__content overflow-hidden d-flex flex-xl-row flex-column justify-content-between align-items-center">
+                <div class="cost_img">
+                    <img src="images/cost-img.png" alt="">
+                </div>
+                <div class="cost__desc">
+                    <h2 class="cost__title">Узнайте стоимость мебели</h2>
+                    <p class="cost__text">Ответь на вопросы,получи скидку и бесплатный дизайн проект</p>
+                    <a href="#!" class="btn">Пройти тест</a>
+                </div>
+            </div>
+            <a href="#!" class="arrow-up position-absolute">
+                <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36 17.1414L18 0L0 17.1414L2.99965 20L18 5.71313L33.0004 20L36 17.1414Z" fill="#AF9678"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+    <!-- Cost end -->
+
+    <!-- About start -->
+    <section class="about">
+        <div class="container">
+            <h2 class="title">О нас</h2>
+            <p class="about__text">Мы рады видеть вас на нашем сайте, здесь представлены примеры наших работ и мебель, которую мы можем изготовить, в том числе по вашим индивидуальным запросам.
+                Мы поможем сделать вашу квартиру, дом или офис более комфортным, функциональным и привлекательным. В производстве мебели мы используем лучшие материалы и современное оборудование, чтобы создавать по-настоящему красивую, удобную и качественную мебель.</p>
+        </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Benefits start -->
+    <section class="benefits">
+        <div class="container">
+            <h1 class="title text-center">Почему более 14 лет клиенты выбирают нас:</h1>
+            <div class="benefits__items d-flex justify-content-between flex-wrap">
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img1.png" alt="">
+                    <p class="benefits__item--text text-center">Рассрочки</p>
+                </div>
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img2.png" alt="">
+                    <p class="benefits__item--text text-center">Заводские цены</p>
+                </div>
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img3.png" alt="">
+                    <p class="benefits__item--text text-center">Оперативные сроки</p>
+                </div>
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img4.png" alt="">
+                    <p class="benefits__item--text text-center">Акции, скидки, бонусы</p>
+                </div>
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img5.png" alt="">
+                    <p class="benefits__item--text text-center">Европейское качество</p>
+                </div>
+                <div class="benefits__item d-flex flex-column align-items-center">
+                    <img src="images/benefits-img6.png" alt="">
+                    <p class="benefits__item--text text-center">Бесплатная 3d визуализация</p>
+                </div>
+            </div>
+            <p class="benefits__text w-100 text-center">Возможность рассрочки от нашей компании переплат!
+            </p>
+        </div>
+    </section>
+    <!-- Benefits end -->
+
+    <!-- Catalog start -->
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Каталог</h2>
+            <div class="catalog__cards d-flex justify-content-between flex-wrap">
+                <div class="catalog__card position-relative overflow-hidden">
+                    <img src="images/catalog-img1.png" alt="">
+                    <div class="catalog__card--content position-absolute d-flex justify-content-center align-items-center">
+                        <a href="#!" class="catalog__card--text text-center">Шкаф-купе</a>
+                    </div>
+                </div>
+                <div class="catalog__card position-relative overflow-hidden">
+                    <img src="images/catalog-img2.png" alt="">
+                    <div class="catalog__card--content position-absolute d-flex justify-content-center align-items-center">
+                        <a href="#!" class="catalog__card--text text-center">Шкаф с распашными дверями</a>
+                    </div>
+                </div>
+                <div class="catalog__card position-relative overflow-hidden">
+                    <img src="images/catalog-img3.png" alt="">
+                    <div class="catalog__card--content position-absolute d-flex justify-content-center align-items-center">
+                        <a href="#!" class="catalog__card--text text-center">Кухни</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Catalog end -->
+
+    <!-- Materials start -->
+    <section class="materials">
+        <div class="container">
+            <h2 class="title text-start">Современные материалы</h2>
+            <div class="tabs">
+                <div class="tabs__names d-flex justify-content-between">
+                    <a href="#!" class="tabs__name Active">Материалы</a>
+                    <a href="#!" class="tabs__name">Фурнитура</a>
+                </div>
+                <div class="tabs__content position-relative d-flex justify-content-center">
+                    <div class="tabs__item position-absolute Active">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/materials-img1.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/materials-img1.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/materials-img1.png" alt="">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true">
+                                  <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.1414 0L0 18L17.1414 36L20 33.0004L5.71313 18L20 2.99965L17.1414 0Z" fill="#937A60"/>
+                                  </svg>
+                              </span>
+                              <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true">
+                                  <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.85859 36L20 18L2.85859 -1.49855e-06L2.88498e-06 2.99964L14.2869 18L2.62237e-07 33.0004L2.85859 36Z" fill="#937A60"/>
+                                  </svg>
+                              </span>
+                              <span class="visually-hidden">Следующий</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="tabs__item position-absolute">
+                        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/materials-img2.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/materials-img2.png" alt="">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/materials-img2.png" alt="">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"  data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true">
+                                <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.1414 0L0 18L17.1414 36L20 33.0004L5.71313 18L20 2.99965L17.1414 0Z" fill="#937A60"/>
+                                </svg>
+                              </span>
+                              <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"  data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true">
+                                <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.85859 36L20 18L2.85859 -1.49855e-06L2.88498e-06 2.99964L14.2869 18L2.62237e-07 33.0004L2.85859 36Z" fill="#937A60"/>
+                                </svg>    
+                              </span>
+                              <span class="visually-hidden">Следующий</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Materials end -->
+
+    <!-- Offers start -->
+    <section class="offers">
+        <div class="container">
+            <h2 class="title text-start">Специальные предложения </h2>
+            <div class="offers__cards d-flex justify-content-between flex-wrap">
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">Хит продаж</span>
+                    <img src="images/offers-img1.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">Шкаф Riviera/1</a>
+                        <p class="offers__card--price">1000p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-50%</span>
+                    <img src="images/offers-img2.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">Шкаф Comfort/5</a>
+                        <p class="offers__card--price">900p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-30%</span>
+                    <img src="images/offers-img3.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">шкаф WingLine</a>
+                        <p class="offers__card--price">840p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">Рассрочка</span>
+                    <img src="images/offers-img4.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">Шкаф Riviera/5</a>
+                        <p class="offers__card--price">80p/мес</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-40%</span>
+                    <img src="images/offers-img5.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">Шкаф Comfort/3</a>
+                        <p class="offers__card--price">420p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-15%</span>
+                    <img src="images/offers-img6.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">шкаф WingLine/8</a>
+                        <p class="offers__card--price">510p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-15%</span>
+                    <img src="images/offers-img1.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">шкаф WingLine/8</a>
+                        <p class="offers__card--price">510p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-15%</span>
+                    <img src="images/offers-img2.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">шкаф WingLine/8</a>
+                        <p class="offers__card--price">510p</p>
+                    </div>
+                </div>
+                <div class="offers__card position-relative">
+                    <span class="offers__card--info position-absolute">-15%</span>
+                    <img src="images/offers-img3.png" alt="">
+                    <div class="offers__card--content d-flex justify-content-between">
+                        <a href="goods.html" class="offers__card--name">шкаф WingLine/8</a>
+                        <p class="offers__card--price">510p</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#!" class="see__more d-block m-auto">Смотреть ещё</a>
+        </div>
+    </section>
+    <!-- Offers end -->
+
+    <!-- Stocks start -->
+    <section class="stocks">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="title text-center">Акции</h2>
+                <p class="stocks__text text-center">Узнай первым об акциях и скидках</p>
+                <input type="text" class="stocks__input" placeholder="введите номер телефона или email">
+                <a href="#!" class="btn">Подписаться</a>
+            </div>
+        </div>
+    </section>
+    <!-- Stocks end -->
+
+    <!-- Reviews start -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="title text-right">Отзывы</h2>
+            <div class="slider" direction="X" dots="true" autoplay="true">
+                <div class="slider-list">
+                  <div class="slider-list__item d-flex flex-column align-items-start">
+                      <h3 class="slider__item--title">@prlxlr13</h3>
+                      <p class="slider__item--text">Хочу выразить свою благодарность всему коллективу компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне нет, новая кухня – всегда радость для хозяйки!</p>
+                  </div>
+                  <div class="slider-list__item d-flex flex-column align-items-start">
+                      <h3 class="slider__item--title">@prlxlr13</h3>
+                      <p class="slider__item--text">Хочу выразить свою благодарность всему коллективу компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне нет, новая кухня – всегда радость для хозяйки!</p>
+                  </div>
+                  <div class="slider-list__item d-flex flex-column align-items-start">
+                      <h3 class="slider__item--title">@prlxlr13</h3>
+                      <p class="slider__item--text">Хочу выразить свою благодарность всему коллективу компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне нет, новая кухня – всегда радость для хозяйки!</p>
+                  </div>
+                  <div class="slider-list__item d-flex flex-column align-items-start">
+                      <h3 class="slider__item--title">@prlxlr13</h3>
+                      <p class="slider__item--text">Хочу выразить свою благодарность всему коллективу компании, консультанту, замерщику и монтажникам. Ребята, которые устанавливали кухню, порадовали своей работой, все чисто, аккуратно и быстро. Нареканий по кухне нет, новая кухня – всегда радость для хозяйки!</p>
+                  </div>
+                  <div class="slider-controls">
+                    <button type="button" class="slider-controls__btn prew"><svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.1414 0L0 18L17.1414 36L20 33.0004L5.71313 18L20 2.99965L17.1414 0Z" fill="#937A60"/>
+                      </svg>
+                    </button>
+                    <button type="button" class="slider-controls__btn next"><svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.85859 36L20 18L2.85859 -1.49855e-06L2.88498e-06 2.99964L14.2869 18L2.62237e-07 33.0004L2.85859 36Z" fill="#937A60"/>
+                      </svg></span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews end -->
+
+    <!-- Production start -->
+    <section class="production">
+        <div class="container">
+            <h2 class="title text-start">Производство</h2>
+            <div class="production__content position-relative d-flex justify-content-center align-items-center">
+                <img src="images/production-img1.png" alt="">
+                <img src="images/production-img2 (2).png" alt="">
+                <div class="production__content--desc position-absolute d-flex flex-column align-items-center">
+                    <p class="production__content--text"><span>1</span> Минимальный опыт работы наших монтажников — 10 лет</p>
+                    <p class="production__content--text"><span>2</span> Любые размеры, цвет, дизайн и фурнитура</p>
+                    <p class="production__content--text"><span>3</span> Установка в удобные для Вас день и время</p>
+                    <p class="production__content--text"><span>4</span> Сроки изготовления 5-15 дней</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Production end -->
+
+    <!-- Work start -->
+    <section class="work">
+        <div class="container">
+            <h2 class="title text-right">Как мы работаем</h2>
+            <div class="work__content d-flex flex-wrap position-relative">
+                <div class="work__card d-flex  align-items-center">
+                    <img src="images/work-img1.png" alt="">
+                    <p>Заказать выезд дизайнера</p>
+                </div>
+                <img src="images/work-arr.png" class="work-arr position-absolute">
+                <div class="work__card d-flex align-items-center">
+                    <img src="images/work-img2.png" alt="">
+                    <p>Обмер</p>
+                </div>
+                <img src="images/work-arr.png" class="work-arr position-absolute">
+                <div class="work__card d-flex align-items-center">
+                    <img src="images/work-img3.png" alt="">
+                    <p>Оформление договора</p>
+                </div>
+                <img src="images/work-arr.png" class="work-arr position-absolute">
+                <div class="work__card d-flex align-items-center">
+                    <img src="images/work-img4.png" alt="">
+                    <p>Построение проекта</p>
+                </div>
+                <img src="images/work-arr.png" class="work-arr position-absolute">
+                <div class="work__card d-flex align-items-center">
+                    <img src="images/work-img5.png" alt="">
+                    <p>Производство</p>
+                </div>
+                <img src="images/work-arr.png" class="work-arr position-absolute">
+                <div class="work__card d-flex align-items-center">
+                    <img src="images/work-img5.png" alt="">
+                    <p>Установка</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work end -->
+
+    <!-- Cost start -->
+    <section class="cost">
+        <div class="cost__wrap d-flex align-items-center">
+            <div class="cost__img">
+                <img src="images/cost__img.png" alt="">
+            </div>
+            <div class="cost__content">
+                <h2 class="title">Узнайте стоимость мебели</h2>
+                <p class="cost__text">Ответь на вопросы,получи скидку и бесплатный дизайн проект</p>
+                <a href="#!" class="btn">Пройти тест</a>
+            </div>
+        </div>
+    </section>
+    <!-- Cost end -->
+
+    <!-- Contacts start -->
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title text-start">Контакты</h2>
+            <div class="contacts__content d-flex align-items-center justify-content-center">
+                <div class="contacts__desc">
+                    <div class="contacts__desc--text">
+                        <p>Адрес офиса:</p>
+                        <p>г.Минск ул П Бровки 45 </p>
+                    </div>
+                    <div class="contacts__desc--text">
+                        <p>Номер телефона:</p>
+                        <p>+375-25-919-92-90</p>
+                    </div>
+                    <div class="contacts__desc--text">
+                        <p>Email:</p>
+                        <p>info@gmail.com</p>
+                    </div>
+                    <div class="contacts__desc--text">
+                        <p>Режим работы:</p>
+                        <p>пн-вс 9:00-21:00</p>
+                    </div>
+                    <div class="contacts__medias d-flex">
+                        <a href="#!"><span class="viber-icon"></span></a>
+                        <a href="#!"><span class="telegram-icon"></span></a>
+                        <a href="#!"><span class="whatsapp-icon"></span></a>
+                    </div>
+                </div>
+                <div class="contacts__consultation d-flex flex-column align-items-center">
+                    <h3 class="consultation__title">Заказать консультацию</h3>
+                    <form class="d-flex flex-column">
+                        <input type="text" placeholder="Номер телефона">
+                        <input type="text" placeholder="Email">
+                        <textarea id="" cols="30" rows="10" placeholder="Комментарии"></textarea>
+                    </form>
+                    <a href="#!" class="btn">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                <a href="#!" class="footer-logo"><img src="images/footer-logo.png" alt=""></a>
+                <ul class="footer__list d-flex flex-column justify-content-center">
+                    <li><a href="#!">О нас</a></li>
+                    <li><a href="#!">Каталог</a></li>
+                    <li><a href="#!">Материалы</a></li>
+                    <li><a href="#!">Цены</a></li>
+                    <li><a href="#!">Отзывы</a></li>
+                    <li><a href="#!">Контакты</a></li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.1687231504984!2d69.26258131744385!3d41.305193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2020878009%3A0x90f60f5cf233ff60!2z0JrQvtGB0LzQvtC90LDQstGC0L7Qsg!5e0!3m2!1sru!2s!4v1651034776959!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.class.js"></script>
+</body>
+</html>
