@@ -4,6 +4,7 @@ let days = document.querySelector(".days"),
     seconds = document.querySelector(".seconds"),
     arrowUp = document.querySelector(".arrow-up"),
     cost = document.querySelector(".cost__content"),
+    costImg = document.querySelector(".cost__content img"),
     tab = document.querySelectorAll(".tabs__item"),
     tabTitle = document.querySelectorAll(".tabs__name"),
     seeMore = document.querySelector(".see__more"),
@@ -30,8 +31,10 @@ arrowUp.addEventListener('click', function() {
 
     if(deg == 180) {
         cost.style.height = "0";
+        costImg.style.height = "0";
     } else if(deg = 360) {
         cost.style.height = "100%";
+        costImg.style.height = "544px";
     }
 
     if(deg == 180) {
